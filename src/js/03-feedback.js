@@ -35,6 +35,7 @@ const handleContactFormSubmit = event => {
 	event.preventDefault();
 	localStorage.removeItem(CONTACT_FORM_LS_KEY);
 	event.target.reset();
+	form = {};
 };
 
 
